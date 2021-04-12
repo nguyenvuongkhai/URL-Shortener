@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const mongoose = require('mongoose');
 const ShortUrl = require('./models/shortUrl');
-mongoose.connect('mongodb+srv://Day:kaiday0107@node-rest-shop.uft33.mongodb.net/urlShortener?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://Day:12345@node-rest-shop.uft33.mongodb.net/urlShortener?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true});
 
 
 
